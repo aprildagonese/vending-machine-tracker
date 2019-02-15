@@ -17,7 +17,7 @@ feature 'When a user visits a snack show page' do
     visit snack_path(doritos)
 
     expect(page).to have_content("Snack: Doritos")
-    expect(page).to have_content("Price: $2.00")
+    expect(page).to have_content("Price: $2.0")
     expect(page).to have_content("Don's Mixed Drinks Average Price: 1.5 Item Count: 2")
     expect(page).to have_content("Mike's Snacks Average Price: 2.5 Item Count: 2")
   end
